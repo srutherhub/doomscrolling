@@ -44,7 +44,7 @@ for (let i = 0; i < 29; i++) {sendData('US',i)}
 
 
 
-fastify.listen({ port: 8080 }, function (err, address) {
+fastify.listen({ port: 3000 }, function (err, address) {
   if (err) {
     fastify.log.error(err);
     process.exit(1);
